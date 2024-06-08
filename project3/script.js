@@ -11,18 +11,18 @@ var currentCount = countLabel.textContent;
 
 // reset button
 reset.onclick = function(){
-    countLabel.textContent = 0;
     currentCount = 0
+    countLabel.textContent = currentCount;
 }
 
 // decrease button
 decreaseBtn.onclick = function(){
-    --currentCount;
+    currentCount--;
     countLabel.textContent = currentCount;
 }
 
 // increase button
 increaseBtn.onclick = function(){
-    ++currentCount;
+    currentCount++;
     countLabel.textContent = currentCount;
 }
