@@ -8,7 +8,7 @@ console.log("Welcome to JavaScript Tutorial.");
 // })
 
 document.getElementById("myH1").textContent = "Welcome To JavaScript";
-document.getElementById("myIp").innerHTML = "<strong>Loreal</strong>";
+document.getElementById("myIp").innerHTML = "<strong>Kobe Bryant</strong> is my favorite Basketball player.";
 
 
 //variables - a container that stores a value
@@ -32,8 +32,6 @@ if(online){
     console.log(`Bro online status: ${online}`)
 }
 
-
-
 let username = 'Yahoo Scammer'
 let age = 35
 let email = "temp021889@gmail.com"
@@ -45,3 +43,17 @@ for (let index = 0; index < user.length; index++) {
     let i = index+1
     document.getElementById(`${i}`).textContent = element
 }
+
+//arithmetic operators (operators +-*/)
+
+let student = 31
+console.log(`Number of Students: ${student}`)
+console.log(`Addition (2): ${student+2}`)
+console.log(`Subtraction (2): ${student-2}`)
+console.log(`Multiplication (2): ${student*2}`)
+console.log(`Division (2): ${student/2}`)
+console.log(`Module (2): ${student%2}`)
+console.log(--student)
+
+// exponent
+console.log(Math.pow(4,2))
